@@ -10,7 +10,10 @@
 
 % Package Imports
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,pdfusetitle]{hyperref}
+\makeatletter
+\hypersetup{pdftitle={\@title},pdfauthor={\@author}}
+\makeatother
 
 % Publications
 \usepackage{cite}
