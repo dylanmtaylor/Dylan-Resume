@@ -1,5 +1,5 @@
 # Dylan Taylor's LaTeX Résumé
-An attempt to convert my résumé to LaTeX format, inspired by Debarghya Das.
+My résumé, in LaTeX format, inspired by [Debarghya Das](https://github.com/deedy/Deedy-Resume).
 
 ## Building
 Assuming the proper software is installed, this can be built by running
