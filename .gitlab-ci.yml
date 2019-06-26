@@ -7,6 +7,7 @@ before_script:
 build:
   stage: build
   script:
+    - export DEBIAN_FRONTEND=noninteractive
     - xelatex dylan-resume.tex
   artifacts:
     paths:
