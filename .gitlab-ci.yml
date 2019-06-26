@@ -2,12 +2,12 @@ image: ubuntu:18.04
 
 before_script:
   - apt-get update
+  - export DEBIAN_FRONTEND=noninteractive
   - apt-get install -y texlive-xetex texlive-fonts-recommended texlive-font-utils
 
 build:
   stage: build
   script:
-    - export DEBIAN_FRONTEND=noninteractive
     - xelatex dylan-resume.tex
   artifacts:
     paths:
