@@ -9,5 +9,5 @@ build:
   script:
     - xelatex dylan-resume.tex
   artifacts:
-    path:
+    paths:
       - .
