@@ -11,4 +11,4 @@ build:
     - xelatex dylan-resume.tex
   artifacts:
     paths:
-      - .
+      - dylan-resume.pdf
