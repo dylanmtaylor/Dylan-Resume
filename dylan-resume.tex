@@ -49,7 +49,6 @@
 
 \href{https://www.truist.com/}{\runsubsection{Truist Financial Corporation (formerly BB\&T)}}
 \hspace*{\fill} \href{https://www.raleighnc.gov/}{\location{Raleigh, North Carolina}}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item VP, Platform Enigneer II \hspace*{\fill}June 2018 - September 2021
 \end{tightemize}
@@ -69,36 +68,38 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{TECHNICAL SKILLS}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{center}
-\begin{minipage}[b]{0.33333\textwidth}
+\begin{minipage}[b]{0.480\textwidth}
 \raggedright
-AWS cloud architecture and design \par
-Software Development in Python and Java \par
-Infrastructure as Code (IaC) \par
-Terraform/OpenTofu, CDK, CloudFormation \par
-Git (GitHub, GitLab, Gerrit), SVN \par
-Linux Administration (Red Hat, Ubuntu) \par
+\begin{tightemize}
+\item AWS, Azure, GCP, OCI, Vultr, OpenStack clouds \par 
+\item Software Development in Python and Java \par
+\item Scripting and automation (Bash, PowerShell) \par
+\item Infrastructure as Code (IaC) \par
+\item Automated VM image building (Packer) \par
+\item Logging and performance monitoring \par
+\item Git (GitHub, GitLab, Gerrit), SVN \par
+\item Linux Administration (Red Hat, Ubuntu) \par
+\item Disaster recovery planning \par
+\end{tightemize}
 \end{minipage}%
-\begin{minipage}[b]{0.33333\textwidth}
-\centering
-CI/CD pipelines in GitHub and GitLab \par
-Scripting and automation (Bash, PowerShell) \par
-AWS, Azure, GCP, OCI, OpenStack clouds \par 
-Serverless functions (including Lambda) \par
-Basic DBA (MySQL, PostgreSQL, Oracle, Aurora) \par
-\end{minipage}%
-\begin{minipage}[b]{0.33333\textwidth}
-\raggedleft
-Container development and orchestration \par
-Docker, Podman/Buildah, K8s, Fargate \par
-Automated VM image building (Packer) \par
-Logging and performance monitoring and \par
-Networking (VPC, NSGs, NFW, WAF, Cloud WAN) \par
-S3 Object Storage Administration \par
-IAM permissions, security \par
-Disaster recovery planning \par
+\begin{minipage}[b]{0.52\textwidth}
+\raggedright
+\begin{tightemize}
+\item Terraform/OpenTofu, CloudFormation, Ansible, Chef, CDK \par
+\item DevOps pipelines (GitHub Actions, GitLab CI/CD) \par
+\item Networking (VPC, NSGs, NFW, WAF, Cloud WAN) \par
+\item Serverless functions (including Lambda) \par
+\item Basic DBA (MySQL, PostgreSQL, Oracle, Aurora) \par
+\item Container development and orchestration \par
+\item Docker, Podman/Buildah, K8s, Fargate \par
+\item S3 object storage and elastic file system\par
+\item IAM permissions and security hardening \par
+\end{tightemize}
 \end{minipage}
 \end{center}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROFESSIONAL EXPERIENCE
@@ -112,17 +113,7 @@ Disaster recovery planning \par
 \item {Authored a comprehensive Ansible cloud security playbook and a provisioning script solution to deploy and configure Linux machines to meet corporate security standards, enable system logging for auditability, maintain separation of duties, and setup LDAP access so that privileged accounts were not directly accessible.}
 \item {Worked as a Site Reliability Engineer for the IBM Bluemix DevOps Services offering, administering thousands of Linux systems across several environments and participating in an 24x7 on-call rotation via PagerDuty to ensure that SLA obligations were met and monitored system and application health for availability, performance, and reliability.}
 \item {On the UrbanCode Deploy team, I helped develop the Blueprint Designer component, as well as custom OpenStack heat plugins and a microservice to discover cloud resources and expose them to the frontend in a standardized JSON format. This tool facilitated automated deployment of software and infrustructure to multiple cloud and legacy customer environments.}\end{tightemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     CERTIFICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \section{CERTIFICATIONS}
-% \vspace{\topsep} % Hacky fix for awkward extra vertical space
-% \begin{tightemize}
-% \item \href{https://cybersecurity.isaca.org/csx-certifications/csx-fundamentals-certificate}{ISACA Cybersecurity Fundamentals Certification} \hspace*{\fill}May 2015
-% \end{tightemize}
-% \sectionsep
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
