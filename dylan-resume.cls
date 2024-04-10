@@ -44,7 +44,7 @@
 % Name command
 \newcommand{\namesection}[3]{
 \centering{
-\fontsize{32pt}{18pt}
+\fontsize{24pt}{18pt}
 \fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1
 } \\[5pt]
 \centering{
@@ -58,7 +58,7 @@
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{4pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
