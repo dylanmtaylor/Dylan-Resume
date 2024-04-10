@@ -1,6 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Dylan M Taylor Resume
-% February 3, 2020
 %
 % Heavily modified (naturally) from https://github.com/deedydas/Deedy-Resume by Debarghya Das (http://debarghyadas.com)
 % Licensed under the Apache License 2.0.
@@ -76,7 +75,7 @@
 \item AWS, Azure, GCP, OCI, Vultr, OpenStack clouds \par 
 \item Software Development in Python and Java \par
 \item Scripting and automation (Bash, PowerShell) \par
-\item Infrastructure as Code (IaC) \par
+\item Infrastructure-as-Code (IaC) \par
 \item Automated VM image building (Packer) \par
 \item Logging and performance monitoring \par
 \item Git (GitHub, GitLab, Gerrit), SVN \par
@@ -99,7 +98,7 @@
 \end{tightemize}
 \end{minipage}
 \end{center}
-\sectionsep
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROFESSIONAL EXPERIENCE
@@ -107,13 +106,14 @@
 \section{PROFESSIONAL EXPERIENCE}
 \begin{tightemize}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\item {As part of the pipelines team, I developed CI/CD solutions for multiple projects, as well as several container images for builds, some customized Packer images for the internal OpenStack cloud, and a Terraform Tomcat module to deploy Java software within the company in a standardized and approved manner with an ELK stack and our monitoring solution. I also wrote and updated developer-facing documentation to help them adopt DevOps practices and the tooling we developed.}
-\item {Helped administer and maintain internal-facing DevOps tooling including GitLab, Artifactory and Xray, as well as documentation sites and a service status page with a Python and SQL backend. As part of this offering, I built and run a production GitLab build runner service utilizing Terraform infrastructure-as-code deployment, virtual machine auto-scaling to meet user demand, secure containerized builds, and monitoring and alerting using Grafana, Prometheus, and Alertmanager.}
-\item {Utilized scripting and automation to apply infrastructure as code practices to build-out portions of the IBM Watson Health Cloud for Life Sciences Compliance, while capturing output for regulatory purposes. OpenStack APIs were leveraged to provision both virtual machines and networking. I also aided in processing a documentation to fulfil regulatory requirements.}
-\item {Authored a comprehensive Ansible cloud security playbook and a provisioning script solution to deploy and configure Linux machines to meet corporate security standards, enable system logging for auditability, maintain separation of duties, and setup LDAP access so that privileged accounts were not directly accessible.}
-\item {Worked as a Site Reliability Engineer for the IBM Bluemix DevOps Services offering, administering thousands of Linux systems across several environments and participating in an 24x7 on-call rotation via PagerDuty to ensure that SLA obligations were met and monitored system and application health for availability, performance, and reliability.}
-\item {On the UrbanCode Deploy team, I helped develop the Blueprint Designer component, as well as custom OpenStack heat plugins and a microservice to discover cloud resources and expose them to the frontend in a standardized JSON format. This tool facilitated automated deployment of software and infrustructure to multiple cloud and legacy customer environments.}\end{tightemize}
-\sectionsep
+\item {\textbf {Championing cloud-native development and infrastructure-as-code (IaC):} Led the development of multiple CI/CD solutions, container images, customized Packer images, and production-grade Terraform repositories/modules, ensuring standardized, scalable deployments within the company's cloud environments. Focused on reusability when developing modules so that the DRY principle could be applied, ensuring uniformity across many accounts and deployments.}
+\item {\textbf {Scripting and automation:} Developed a Python-based Selenium script for automated environment configuration and testing of a line-of-business application, streamlining deployment processes, reducing manual intervention and improving operational efficiency. Migrated complex business processes to cloud-native architecture on AWS, utilizing Step Functions, Lambda, and Batch, for efficient job processing and reduced operational costs.}
+\item {\textbf {Enhancing cloud security posture:} Developed an Ansible playbook and provisioning scripts to configure Linux machines in line with corporate security standards, ensuring auditability, separation of duties, and LDAP integration. Worked closely with cyber security to build out monitoring and auditing solutions using the Rapid7 Insight Platform in an automated fashion.}
+\item {\textbf {Linux administration:} Seasoned Linux administrator both as a hobbyist and a professional, with extensive experience in system provisioning, configuration management, performance optimization, and troubleshooting across various distributions. I have contributed to FOSS projects in my spare time, providing code, automation, and packaging for components of Arch Linux (writing Python code for the installer), NixOS (as a package maintainer), and GitHub actions for the Universal Blue images.}
+\item {\textbf {Cloud networking:} Helped to design and implement robust and secure multi-regional cloud network infrastructure using VPC, CloudWAN, AWS network firewall, network security group rules, Route53, and Elastic Load Balancers (both ALB and NLB). Centralized network routing and configuration for several dozen accounts for enhanced security and manageability.}
+\item {\textbf {Building deployment and automation tooling:} As a professional software developer, contributed Java and Python code to the IBM UrbanCode Deploy Blueprint Designer, including the OpenStack heat plugins, and a microservice to discover cloud resources. This tool facilitated automated deployment of software and infrustructure to multiple customer environments.}
+\end{tightemize}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -130,3 +130,4 @@
 % END OF MAIN SECTION
 \end{minipage}
 \end{document}  \documentclass[]{article}
+AWS
